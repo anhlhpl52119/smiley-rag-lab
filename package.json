@@ -1,0 +1,26 @@
+{
+  "name": "smiley-rag-lab",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Smiley - A Slack translation app using Google Gemini API",
+  "author": "anhlh",
+  "license": "MIT",
+  "scripts": {
+    "dev": "bun app.ts",
+    "build": "bun bun.build.js",
+    "seed": "ts-node src/scripts/seedFewShotPrompts.ts"
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.3.0",
+    "dotenv": "^16.5.0",
+    "pg": "^8.11.3",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.13.0",
+    "@types/node": "^22.15.17",
+    "@types/pg": "^8.11.2",
+    "eslint": "^9.26.0",
+    "ts-node": "^10.9.2"
+  }
+}
