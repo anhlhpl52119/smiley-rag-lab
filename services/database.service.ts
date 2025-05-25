@@ -3,7 +3,7 @@ import { Pool } from "pg";
 
 dotenv.config();
 function opt() {
-  console.log("run!!");
+  console.log("run!");
   return {
     connectionString: process.env.DATABASE_URL,
   };

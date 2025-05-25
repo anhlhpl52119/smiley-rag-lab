@@ -28,7 +28,6 @@ export class SlackService {
     this.app.message(async ({ message, say }) => {
       try {
         console.log("passed", message);
-
         const typedMessage = message as any;
         if (typedMessage.subtype || typedMessage.bot_id) {
           // Skip bot messages and message subtypes
