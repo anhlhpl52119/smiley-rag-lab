@@ -1,10 +1,10 @@
 import { App } from "@slack/bolt";
 import dotenv from "dotenv";
 import { getQuery } from "./services/database.service";
+import { SlackService } from "./services/slack.service";
 
 // Load environment variables
 dotenv.config();
-
 // Initializes your app with your bot token and signing secret
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
@@ -13,6 +13,8 @@ const app = new App({
   appToken: process.env.SLACK_APP_TOKEN,
 });
 
+SlackService.getInstance(app);
+
 (async () => {
   if (process.env.IS_DEV) {
     console.table({
@@ -20,7 +22,6 @@ const app = new App({
       SigningSecret: process.env.SLACK_SIGNING_SECRET,
       AppToken: process.env.SLACK_APP_TOKEN,
     });
-    getQuery();
   }
 
   // Start your app
