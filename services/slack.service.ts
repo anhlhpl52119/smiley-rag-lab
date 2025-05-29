@@ -6,7 +6,6 @@ import { SUPPORTED_LANGUAGES } from "../constants";
 export class SlackService {
   private static instance: SlackService;
   private app: App;
-  // private gemini: GeminiService;
   // private parser: MessageParser;
 
   private constructor(app: App) {
