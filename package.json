@@ -4,7 +4,8 @@
   "private": true,
   "module": "index.ts",
   "scripts": {
-    "dev": "bun src/index.ts"
+    "dev": "bun src/index.ts",
+    "seed": "bun utils/create-seed-db.ts"
   },
   "peerDependencies": {
     "typescript": "^5"
