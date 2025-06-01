@@ -10,5 +10,4 @@ const pool = new Pool({
 
 export async function executeQuery(q: string) {
   const res = (await pool.query(q)).command;
-  console.log(res);
 }
