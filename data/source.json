@@ -1,0 +1,70 @@
+[
+  {
+    "ko": "서버 배포 완료했습니다.",
+    "vi": "Tôi đã deploy lên server xong."
+  },
+  {
+    "ko": "데이터베이스 마이그레이션 스크립트를 실행해야 합니다.",
+    "vi": "Cần phải chạy script migration database."
+  },
+  {
+    "ko": "API 엔드포인트가 응답하지 않습니다.",
+    "vi": "API endpoint không phản hồi."
+  },
+  {
+    "ko": "호출 시 \"paytool_code: 0\" 으로 호출 하지 말아 주세요.",
+    "vi": "Khi gọi API đừng truyền \"paytool_code: 0\""
+  },
+  {
+    "ko": "지금 sb 환경에서 빌링설정 관련 환불 url 등록 안되는 부분은 front 확",
+    "vi": "Hiện tại, việc không thể đăng ký URL hoàn tiền liên quan đến settings của Billing ở môi trường Sandbox có lẽ cần kiểm tra lại ở phía Front-end."
+  },
+  {
+    "ko": "참고로 환불 정보 서버에서 수신하지 않습니다.",
+    "vi": "Xin lưu ý, hiện tại server không nhận thông tin hoàn tiền."
+  },
+  {
+    "ko": "Gate8 환경에서 등록된 상품 1개가 전체상품 카테고리에 노출이 안됩니다.",
+    "vi": "Trong môi trường Gate8, có 1 sản phẩm đã được đăng ký nhưng không hiển thị trong mục All Products."
+  },
+  {
+    "ko": "상위 50개 게임중에서 유효한거 랜덤 4개 골라서 뿌려줘요.",
+    "vi": "Trong 50 game đầu tiên, hệ thống sẽ chọn ngẫu nhiên 4 game hợp lệ để hiển thị."
+  },
+  {
+    "ko": "페이지 새로고침 시 게임 잘 바뀌고, 가격 똑바로 오면 될듯 합니다.",
+    "vi": "Khi làm mới trang, chỉ cần kiểm tra xem game có thay đổi bình thường và giá được hiển thị đúng là được ạ."
+  },
+  {
+    "ko": "마일리지 뿐 아니라 skidc 에 있는 DB들 전체적으로 현재 문제발생 중입니다.",
+    "vi": "Không chỉ riêng phần điểm thưởng (mileage) mà toàn bộ database trên skidc hiện tại đều đang gặp sự cố ạ."
+  },
+  {
+    "ko": "상품 등록/수정 쪽 이거 관련해서 DB 배포 하려고 하는데요",
+    "vi": "Em đang chuẩn bị deploy databse liên quan đến việc đăng ký/sửa product."
+  },
+  {
+    "ko": "죄송하지만 배포 후 테스트 가능 하실까요",
+    "vi": "Rất mong anh/chị hỗ trợ test sau khi deploy xong được không ạ"
+  },
+  {
+    "ko": "파트너스 Front 작업 되기 전 까지 통합 구매 제한 Y로 설정 되어 있으면 무조건 구매 제한 체크도 Y로 등록 되도록 수정 예정이에요.",
+    "vi": "Trước khi hoàn thành phần Front bên Partners, em sẽ chỉnh sửa để nếu field “통합 구매 제한(통합구매제한)” được đặt là ”Y” thì field “구매 제한 체크(구매제한체크)” cũng sẽ tự động là ”Y” luôn ạ"
+  },
+  {
+    "ko": "스토어 입점 게임 \"라그나로크 온라인\"을 이용하는 유저에게 아래와 같이 문의가 접수되어",
+    "vi": "Người dùng của game \"Ragnarok Online\" trên cửa hàng đã gửi yêu cầu hỗ trợ với nội dung bên dưới,"
+  },
+  {
+    "ko": "Sandbox 환경 1차 검증 완료 되었습니다.",
+    "vi": "Đã test xong lần thứ nhất trên môi trường Sandbox. Hiện còn lại 4 issue tồn đọng, mong anh/chị kiểm tra và xử lý sớm giúp em."
+  },
+  {
+    "ko": "포인트/플레이트 DB 삭제 관련 확인은 SB환경 DB 삭제 완료(5/7) 예정으로 완료 ",
+    "vi": "Liên quan đến việc xóa database Point/Flake, dự kiến sẽ hoàn thành xoá DB trên môi trường Sandbox vào ngày 7/5. "
+  },
+  {
+    "ko": "파트너스-리워드 관리 메뉴 기능 확인 예정입니다.",
+    "vi": "Sau khi hoàn tất, sẽ tiến hành kiểm tra chức năng menu Reward Managements trên Partners."
+  }
+]
